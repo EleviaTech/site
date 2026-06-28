@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Elévia Tech cria sites, sistemas e automações com IA para empresas que querem vender mais e operar com menos atrito."
+    />
+    <meta property="og:title" content="Elévia Tech | Sites, sistemas e automações" />
+    <meta
+      property="og:description"
+      content="Portfolio vivo com demos navegáveis, atendimento inteligente e soluções digitais sob medida."
+    />
+    <meta name="theme-color" content="#05060f" />
+    <title>Elévia Tech V2 | Sites, Sistemas e Automações</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas class="network-canvas" data-network-canvas aria-hidden="true"></canvas>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Elévia Tech">
+        <span class="brand-wordmark" aria-hidden="true">
+          <strong>elév<span>ia</span></strong>
+          <small>tech studio</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#solucoes">Soluções</a>
+        <a href="#negocios">Simulador</a>
+        <a href="#demos">Demos</a>
+        <a href="#ia">IA</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="button button-secondary" href="#demos">
+          <i data-lucide="layout-dashboard"></i>
+          Ver demos
+        </a>
+        <a class="button button-primary" href="https://wa.me/5511982445610?text=Oi%2C%20vim%20pelo%20site%20V2%20da%20El%C3%A9via%20Tech%20e%20quero%20um%20diagn%C3%B3stico." target="_blank" rel="noopener">
+          <i data-lucide="message-circle"></i>
+          WhatsApp
+        </a>
+        <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-toggle>
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </header>
+
+    <nav class="mobile-nav" data-mobile-nav aria-label="Menu mobile">
+      <a href="#solucoes">Soluções</a>
+      <a href="#negocios">Simulador</a>
+      <a href="#demos">Demos</a>
+      <a href="#ia">IA</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Sites + sistemas + automações com IA</p>
+          <h1>Seu negócio com presença digital, atendimento inteligente e processos mais leves.</h1>
+          <p class="lead">
+            A Elévia Tech cria experiências digitais que não ficam só bonitas: elas captam clientes, organizam
+            operações e mostram tecnologia funcionando na prática.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary button-large" href="#contato">
+              <i data-lucide="zap"></i>
+              Quero elevar meu negócio
+            </a>
+            <a class="button button-glass button-large" href="#negocios">
+              <i data-lucide="sparkles"></i>
+              Montar solução ideal
+            </a>
+          </div>
+
+          <div class="hero-proof" aria-label="Diferenciais">
+            <span>Sites profissionais</span>
+            <span>WhatsApp inteligente</span>
+            <span>Sistemas sob medida</span>
+            <span>Demos navegáveis</span>
+          </div>
+        </div>
+
+        <div class="hero-product" aria-label="Demonstração visual de produto">
+          <div class="browser-shell">
+            <div class="browser-top">
+              <span></span><span></span><span></span>
+              <small>dashboard.elevia.tech</small>
+            </div>
+            <div class="dashboard-grid">
+              <div class="dash-card metric-card">
+                <span>Leads captados</span>
+                <strong data-count="128">0</strong>
+                <small>+38% em 30 dias</small>
+              </div>
+              <div class="dash-card">
+                <span>Automação ativa</span>
+                <div class="pulse-row"><b></b><b></b><b></b></div>
+              </div>
+              <div class="dash-card chart-card">
+                <span>Conversão</span>
+                <div class="bars"><b></b><b></b><b></b><b></b><b></b></div>
+              </div>
+              <div class="dash-card chat-preview">
+                <span>IA no atendimento</span>
+                <p>Cliente qualificado e direcionado para WhatsApp.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-phone">
+            <div class="phone-head">Assistente Elévia</div>
+            <div class="phone-msg bot">Oi! Qual tipo de solução você procura?</div>
+            <div class="phone-msg user">Site + automação</div>
+            <div class="phone-msg bot">Perfeito. Posso montar um diagnóstico inicial.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-strip" aria-label="Indicadores de atuação">
+        <div>
+          <strong>01</strong>
+          <span>Estratégia antes do layout</span>
+        </div>
+        <div>
+          <strong>02</strong>
+          <span>Funcionalidades que vendem</span>
+        </div>
+        <div>
+          <strong>03</strong>
+          <span>Entrega pronta para publicar</span>
+        </div>
+        <div>
+          <strong>04</strong>
+          <span>Automação conectada ao atendimento</span>
+        </div>
+      </section>
+
+      <section class="section solutions" id="solucoes">
+        <div class="section-heading">
+          <p class="eyebrow">O que a Elévia resolve</p>
+          <h2>Uma boutique digital para negócios que precisam parecer maiores, vender melhor e operar com clareza.</h2>
+        </div>
+
+        <div class="solution-grid">
+          <article class="solution-card">
+            <i data-lucide="monitor-smartphone"></i>
+            <h3>Sites de conversão</h3>
+            <p>Landing pages, sites institucionais e páginas por campanha com design autoral, mobile first e CTA direto.</p>
+            <ul>
+              <li>Copy estratégica</li>
+              <li>SEO básico</li>
+              <li>WhatsApp integrado</li>
+            </ul>
+          </article>
+          <article class="solution-card featured">
+            <i data-lucide="bot"></i>
+            <h3>Atendimento inteligente</h3>
+            <p>Fluxos para responder dúvidas, qualificar leads e levar a pessoa certa para o atendimento humano.</p>
+            <ul>
+              <li>FAQ automatizado</li>
+              <li>Mensagem pré-pronta</li>
+              <li>Triagem comercial</li>
+            </ul>
+          </article>
+          <article class="solution-card">
+            <i data-lucide="database-zap"></i>
+            <h3>Sistemas sob medida</h3>
+            <p>Dashboards, controle de estoque, financeiro, CRM e fluxos internos pensados para a rotina real.</p>
+            <ul>
+              <li>Painéis administrativos</li>
+              <li>Organização de dados</li>
+              <li>Relatórios de gestão</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="business-lab" id="negocios">
+        <div class="lab-copy">
+          <p class="eyebrow">Escolha seu negócio</p>
+          <h2>Veja como a tecnologia pode funcionar no seu cenário.</h2>
+          <p>
+            Em vez de vender pacote genérico, a Elévia mostra uma solução por contexto: dor, funcionalidade e próximo
+            passo comercial.
+          </p>
+        </div>
+
+        <div class="lab-panel">
+          <div class="segment-tabs" role="tablist" aria-label="Tipos de negócio">
+            <button class="is-active" type="button" data-segment="estetica">Clínica estética</button>
+            <button type="button" data-segment="salao">Salão</button>
+            <button type="button" data-segment="restaurante">Restaurante</button>
+            <button type="button" data-segment="imobiliaria">Imobiliária</button>
+            <button type="button" data-segment="servicos">Prestador</button>
+          </div>
+
+          <div class="segment-output" data-segment-output>
+            <div>
+              <span class="output-label">Problemas comuns</span>
+              <ul data-segment-pains></ul>
+            </div>
+            <div>
+              <span class="output-label">Solução Elévia</span>
+              <ul data-segment-solutions></ul>
+            </div>
+            <a class="button button-primary" data-segment-link href="https://wa.me/5511982445610" target="_blank" rel="noopener">
+              <i data-lucide="send"></i>
+              Quero essa solução
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section demos" id="demos">
+        <div class="section-heading compact">
+          <p class="eyebrow">Portfólio vivo</p>
+          <h2>Demos navegáveis para provar estilo, visão comercial e execução técnica.</h2>
+          <p>Cards prontos para receber novos projetos conforme você publicar mais demos no GitHub Pages.</p>
+        </div>
+
+        <div class="demo-grid">
+          <article class="demo-card live">
+            <div class="demo-visual estetica">
+              <span>CV</span>
+              <b></b>
+            </div>
+            <div class="demo-body">
+              <span class="demo-kicker">Clínica de estética</span>
+              <h3>ClaraVita Estética Avançada</h3>
+              <p>Site premium com hero visual, serviços, método, formulário, WhatsApp e assistente virtual.</p>
+              <div class="tags">
+                <span>Demo navegável</span>
+                <span>Mobile first</span>
+                <span>WhatsApp</span>
+              </div>
+              <div class="demo-actions">
+                <a href="https://eleviatech.github.io/demo.estetica/" target="_blank" rel="noopener">Ver site</a>
+                <a href="https://wa.me/5511982445610?text=Quero%20um%20site%20parecido%20com%20a%20demo%20de%20est%C3%A9tica." target="_blank" rel="noopener">Quero parecido</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="demo-visual salon">
+              <span>SL</span>
+              <b></b>
+            </div>
+            <div class="demo-body">
+              <span class="demo-kicker">Salão de beleza</span>
+              <h3>Studio Lumina</h3>
+              <p>Agenda, vitrine de serviços, prova social, galeria e CTA para atendimento.</p>
+              <div class="tags"><span>Próxima demo</span><span>Agendamento</span></div>
+              <div class="demo-actions">
+                <a href="#contato">Planejar</a>
+                <a href="https://wa.me/5511982445610?text=Quero%20uma%20demo%20para%20sal%C3%A3o%20de%20beleza." target="_blank" rel="noopener">Quero parecido</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="demo-card">
+            <div class="demo-visual dashboard">
+              <span>CRM</span>
+              <b></b>
+            </div>
+            <div class="demo-body">
+              <span class="demo-kicker">Sistema interno</span>
+              <h3>Painel de vendas e clientes</h3>
+              <p>Interface administrativa para acompanhar leads, pedidos, tarefas e indicadores.</p>
+              <div class="tags"><span>Dashboard</span><span>CRM</span><span>Relatórios</span></div>
+              <div class="demo-actions">
+                <a href="#ia">Ver conceito</a>
+                <a href="https://wa.me/5511982445610?text=Quero%20um%20sistema%20sob%20medida." target="_blank" rel="noopener">Solicitar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="ai-demo" id="ia">
+        <div class="conversation">
+          <div class="conversation-header">
+            <span class="status"></span>
+            <strong>Atendimento inteligente</strong>
+            <small>triagem consultiva</small>
+          </div>
+          <div class="conversation-body" data-conversation>
+            <div class="bubble client">Oi, vocês fazem site para clínica de estética?</div>
+            <div class="bubble ai">Sim. Posso criar um site com serviços, agendamento, WhatsApp, FAQ e estrutura para captar clientes.</div>
+            <div class="bubble client">Dá para colocar bot automático?</div>
+            <div class="bubble ai">Dá sim. O fluxo pode responder dúvidas, qualificar o lead e chamar você quando precisar de atendimento humano.</div>
+          </div>
+        </div>
+
+        <div class="ai-copy">
+          <p class="eyebrow">Demonstração de IA/WhatsApp</p>
+          <h2>Mostre tecnologia antes mesmo do primeiro contato.</h2>
+          <p>
+            Seu site pode virar um pré-atendimento: responde dúvidas, organiza a intenção do cliente e abre uma conversa
+            no WhatsApp com contexto.
+          </p>
+          <div class="ai-actions">
+            <button class="button button-secondary" type="button" data-replay-conversation>
+              <i data-lucide="refresh-cw"></i>
+              Reproduzir conversa
+            </button>
+            <a class="button button-primary" href="https://wa.me/5511982445610?text=Quero%20testar%20uma%20automa%C3%A7%C3%A3o%20de%20atendimento." target="_blank" rel="noopener">
+              <i data-lucide="message-square-more"></i>
+              Testar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="diagnostic" id="contato">
+        <div>
+          <p class="eyebrow">Diagnóstico rápido</p>
+          <h2>Descubra o tipo de projeto ideal para sua fase.</h2>
+          <p>
+            Marque o que seu negócio precisa agora. A resposta vira uma recomendação pronta para mandar no WhatsApp.
+          </p>
+        </div>
+
+        <form class="diagnostic-form" data-diagnostic-form>
+          <label><input type="checkbox" value="captar clientes pelo Instagram e Google" /> Captar clientes online</label>
+          <label><input type="checkbox" value="organizar atendimento no WhatsApp" /> Organizar WhatsApp</label>
+          <label><input type="checkbox" value="mostrar serviços com clareza" /> Mostrar serviços</label>
+          <label><input type="checkbox" value="controlar vendas, estoque ou clientes" /> Criar sistema interno</label>
+          <label><input type="checkbox" value="automatizar perguntas frequentes" /> Automatizar FAQ</label>
+          <button class="button button-primary" type="submit">
+            <i data-lucide="wand-sparkles"></i>
+            Gerar recomendação
+          </button>
+          <p class="diagnostic-result" data-diagnostic-result></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#inicio" aria-label="Elévia Tech">
+        <span class="brand-wordmark" aria-hidden="true">
+          <strong>elév<span>ia</span></strong>
+          <small>tech studio</small>
+        </span>
+      </a>
+      <div class="footer-links">
+        <a href="https://instagram.com/elevia.tech" target="_blank" rel="noopener">Instagram</a>
+        <a href="mailto:eleviatech@outlook.com">Email</a>
+        <a href="https://wa.me/5511982445610" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <span>© 2026 Elévia Tech</span>
+    </footer>
+
+    <div class="floating-actions" aria-label="Ações rápidas">
+      <a class="whatsapp-pill" href="https://wa.me/5511982445610?text=Oi%2C%20vim%20pelo%20site%20da%20El%C3%A9via%20Tech%20e%20quero%20um%20diagn%C3%B3stico." target="_blank" rel="noopener">
+        <i data-lucide="phone-call"></i>
+        <span>WhatsApp</span>
+      </a>
+      <button class="assistant-toggle" type="button" aria-label="Abrir assistente virtual" aria-expanded="false" data-assistant-toggle>
+        <i data-lucide="bot"></i>
+      </button>
+    </div>
+
+    <section class="assistant-panel" aria-label="Assistente virtual Elévia" data-assistant-panel>
+      <header>
+        <div>
+          <strong>Assistente Elévia</strong>
+          <span>Triagem comercial instantânea</span>
+        </div>
+        <button type="button" aria-label="Fechar assistente" data-assistant-close>
+          <i data-lucide="x"></i>
+        </button>
+      </header>
+      <div class="assistant-messages" data-assistant-messages>
+        <div class="assistant-message bot">
+          Oi! Me conta o que você quer melhorar no seu negócio. Posso te orientar sobre site, automação, sistema ou montar um diagnóstico inicial.
+        </div>
+      </div>
+      <div class="assistant-quick">
+        <button type="button" data-chat="site">Quero um site</button>
+        <button type="button" data-chat="automacao">Quero automação</button>
+        <button type="button" data-chat="sistema">Quero sistema</button>
+        <button type="button" data-chat="diagnostico">Diagnóstico</button>
+      </div>
+      <form class="assistant-form" data-assistant-form>
+        <input name="message" type="text" placeholder="Digite sua dúvida" autocomplete="off" />
+        <button type="submit" aria-label="Enviar">
+          <i data-lucide="send"></i>
+        </button>
+      </form>
+    </section>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
